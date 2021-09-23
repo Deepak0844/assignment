@@ -7,15 +7,6 @@ class Account {
        getBalance() {
            return "The balance is: ₹" + this.balance;
        }
-    //    withdraw(amount){
-    //        console.log(amount,this.balance)
-    //        if(this.balance>=amount){
-    //            this.balance=this.balance-amount;
-    //            return this.getBalance();
-    //        }
-    //        else{
-    //            return 'In sufficient balance'
-    //        }
         deposite(addamount) {
            // console.log(amount,this.balance)
            if(addamount > 0){
