@@ -8,7 +8,6 @@ class Account {
            return "The balance is: ₹" + this.balance;
        }
         deposite(addamount) {
-           // console.log(amount,this.balance)
            if(addamount > 0){
             this.balance=this.balance + addamount;
             return this.getBalance();
