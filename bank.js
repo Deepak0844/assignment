@@ -19,4 +19,4 @@ class Account {
          }
  const deepak = new Account("deepak",1234,100000);
 console.log(deepak.getBalance);
-console.log(deepak.deposite(-200000))
+console.log(deepak.deposite(200000))
